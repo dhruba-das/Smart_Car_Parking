@@ -1,0 +1,44 @@
+.con{
+color: white;
+text-align: center;
+font-family:courier;
+}
+.top{
+	background-color: black;
+}
+span{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 3px 3px black;	10px 10px #000000;
+}
+.log{
+	 
+  background-color: black;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+   text-align: center;
+}
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:hover {
+  cursor: pointer;
+}
+.pop{
+	text-align: center;
+	margin-top: 20%;
+}
