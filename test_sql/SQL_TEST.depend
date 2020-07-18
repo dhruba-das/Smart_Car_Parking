@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595081317 source:c:\kiit\hackathon_practice\sql_test\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+
