@@ -42,17 +42,19 @@
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" method="POST" action="/signup/register">
 
   <h1 class="h3 mb-3 font-weight-normal taylor"><b>Sign-Up to our Services!</b></h1>
   <label for="inputEmail" class="sr-only">Name</label>
-  <input type="text" id="inputEmail" class="form-control" placeholder="Name" required autofocus>
+  <input type="text" class="form-control" placeholder="Name" name="name" required autofocus>
   <label for="inputPassword" class="sr-only">Email</label>
-  <input type="email" id="inputPassword" class="form-control" placeholder="Email address" required>
+  <input type="email" class="form-control" placeholder="Email address" name="email" required>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" class="form-control" placeholder="Email address" name="password" required>
   <label for="inputPassword" class="sr-only">Phone number</label>
-  <input type="text" id="inputPassword" class="form-control" placeholder="Phone number" required>
+  <input type="text" class="form-control" placeholder="Phone number" name="phnumber" required>
   <h3 for="" class="h3 mb-3 font-weight-normal "><small>Upload RC</small></h3>
-  <input type="file" name="" value="" placeholder="">
+  <input type="file" value="" placeholder="" name="rc">
 
   <button class="btn btn-lg btn-primary btn-block katy" type="submit">Sign up</button>
   <p class="mt-5 mb-3 text-muted">&copy; 2020-forever</p>

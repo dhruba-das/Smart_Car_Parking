@@ -8,8 +8,13 @@
       <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <h1 class="login">Log in-</h1>
-    <button type="button" class="btn btn-dark btn-lg download-button barney" name="button" href>See Availiable Slot</button>
-    <a href="SlotNo"  class="btn btn-light btn-lg download-button barney" name="button">Scan Slot Number</a>
+    <div class="container">
+      <form method="POST" action="/login/auth">
+        <h1 class="login">Log in</h1>
+        <input type="email" name="email" class="form-control" aria-label="Sizing example input" placeholder="Enter Email" aria-describedby="inputGroup-sizing-sm">
+        <input type="password" name="password" class="form-control" aria-label="Sizing example input" placeholder="Enter Password" aria-describedby="inputGroup-sizing-sm">
+        <input type="submit" value="Login" class="btn btn-primary">
+      </form>
+    </div>
   </body>
 </html>
