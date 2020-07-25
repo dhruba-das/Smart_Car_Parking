@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1595676669 source:c:\kiit\hackathon_practice\parking_sql\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdio.h>
+
